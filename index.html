@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#0a0e27">
+    <title>A Special Evening</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="stars-container" id="starsContainer"></div>
+        <div class="comet" id="comet"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" id="heroTitle"></h1>
+            <p class="hero-invitation" id="heroInvitation"></p>
+            <button class="cta-button" id="ctaButton">
+                Say yes, my rose 🌹
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-arrow">↓</span>
+        </div>
+    </section>
+
+    <!-- The Plan Section -->
+    <section class="plan-section" id="planSection">
+        <div class="stars-container section-stars" id="planStars"></div>
+        <h2 class="section-title">The Plan</h2>
+        <div class="plan-cards" id="planCards"></div>
+    </section>
+
+    <!-- Dress Code Section -->
+    <section class="dresscode-section" id="dresscodeSection">
+        <div class="stars-container section-stars" id="dresscodeStars"></div>
+        <h2 class="section-title">Dress Code</h2>
+        <div class="dresscode-content">
+            <div class="dresscode-text">
+                <p class="dresscode-description" id="dresscodeDescription"></p>
+            </div>
+            <div class="dresscode-image-container">
+                <img src="pajamas.jpg" alt="Pajamas" class="dresscode-image" id="dresscodeImage" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="dresscode-placeholder" style="display: none;">
+                    <div class="pajamas-illustration">
+                        <div class="pajama-top"></div>
+                        <div class="pajama-bottom"></div>
+                    </div>
+                    <p class="placeholder-text">Add your pajamas photo as "pajamas.jpg"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Choose Our Adventure Section -->
+    <section class="adventure-section" id="adventureSection">
+        <div class="stars-container section-stars" id="adventureStars"></div>
+        <h2 class="section-title">Choose Our Adventure</h2>
+        <p class="adventure-subtitle">Pick the mood for our evening</p>
+        <div class="adventure-cards" id="adventureCards"></div>
+        <div class="adventure-plan" id="adventurePlan"></div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp-section" id="rsvpSection">
+        <div class="stars-container section-stars" id="rsvpStars"></div>
+        <div class="rsvp-content">
+            <h2 class="rsvp-question" id="rsvpQuestion"></h2>
+            <div class="rsvp-buttons" id="rsvpButtons">
+                <button class="rsvp-button rsvp-yes" id="rsvpYes">Yes</button>
+                <button class="rsvp-button rsvp-absolutely" id="rsvpAbsolutely">Absolutely Yes</button>
+            </div>
+            <div class="love-note" id="loveNote"></div>
+        </div>
+        <div class="celebration" id="celebration"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text" id="footerText"></p>
+        <div class="footer-stars"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
